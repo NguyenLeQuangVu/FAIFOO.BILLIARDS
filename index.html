@@ -1,0 +1,1092 @@
+<html>
+    <head>
+        <title>FaiFoo Billiard</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style>
+            #gramax{
+                display: none;
+            }
+            #jedihay{
+                display: none;
+            }
+            #cuemall{
+                display: none;
+            }
+            #longonia{
+                display: none;
+            }
+            #longonib{
+                display: none;
+            }
+            #poinos{
+                display: none;
+            }
+            #carbon{
+                display: none;
+            }
+            .body{
+                width: 1200px;
+            }
+            .shopee{
+                font-size: 37px;
+            }
+            .container{
+                width: 100%;
+            }
+            .part1{
+                display: flex;
+                height: 300px;
+                background-color: rgb(254,97,50);
+                border: 10px solid rgb(11, 3, 56);
+            }
+            .logo{
+                width: 50%;
+                background-image: url("logo.png");
+                background-size: 100% 100%;
+            }
+            .infomation{
+                width: 50%;
+            }
+            .title-faifoo{
+                font-size: 60px;
+                font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+                text-align: center;
+                font-weight: 500;
+            }
+            .faifoo-info{
+                font-size:30px;
+                font-style: oblique;
+                margin-top: 2%;
+                line-height: 38px;
+                color: white;
+            }
+            .zalo{
+                display: flex;
+            }
+            .bold{
+                font-weight: 700;
+            }
+            .slogan{
+                font-style: italic;
+                font-size: 30px;
+                font-weight: 600;
+                text-align: center;
+                margin-top: 2%;
+                color: aliceblue;
+            }
+            .part2{
+                height: 350px;
+                background-image: url("anhnen.jpg");
+                background-size: 100% 100%;
+                text-align: center;
+                opacity: 0.8;
+            }
+           .part2-title{
+                color:white;
+                font-size: 30px;
+                font-weight: 600;
+                text-align: center;
+            }
+            .par2-title-cap{
+                text-align: center;
+            }
+            .par2-title-cap1{
+                font-size: 70px;
+                font-weight: 600;
+                color:black;
+            }
+            .par2-title-cap2{
+                font-size: 50px;
+                font-weight: 600;
+                margin-top: 18px;
+                font-family: Verdana, Geneva, Tahoma, sans-serif
+            }
+            .small-logo{
+                background-image: url("billiard-icon.png");
+                background-size: 100% 100%;
+                width: 50px;
+                height: 40px;
+            }
+            .part3{
+                display: flex;
+                height: 4000px;
+                background-color: rgb(254,97,50);
+            }
+            .mau2{
+                width: 50%;
+                border: 3px solid rgb(218, 215, 221);
+                height: 620px;
+            }
+            .mau1{
+                width: 50%;
+                border: 3px solid rgb(218, 215, 221);
+                height: 620px;
+            }
+            .mau1-info{
+                border: 3px solid white;
+                height: fit-content;
+            }
+            .mau1-title{
+                font-size: 40px;
+                text-align: center;
+                color: white;
+                font-weight: 600;
+                border: 3px solid white;
+            }
+            .mau1-img{
+                height: 450px;
+            }
+            .mau1-vipi{
+                display: flex;
+                justify-content: space-between;
+                border: 2px solid white;
+                height: 102px;
+            }
+            .mau1-pic{
+                width: 25%;
+                height: 100%;
+                border: 5px solid white;
+                }
+            .mau1-video{
+                height: 100%;
+                width: 20%;
+                border: 5px solid white;
+            }
+            .mau1-mota{
+                height: 140px;
+            }
+            .mau2-info{
+                border: 3px solid white;
+                height:565px;
+            }
+            .mau2-title{
+                font-size: 40px;
+                text-align: center;
+                color: white;
+                font-weight: 600;
+                border: 3px solid white;
+                position: static;
+            }
+            .mau2-img{
+                height: 450px;
+            }
+            .mau2-vipi{
+                height: 102px;
+                display: flex;
+                justify-content: space-between;
+                border: 2px solid white;
+            }
+            .mau2-pic1{
+                width: 25%;
+                height: 100%;
+                background-size: 100% 100%;
+                border: 5px solid white;
+                }
+            .mau2-pic2{
+                width: 25%;
+                height: 100%;
+                background-size: 100% 100%;
+                border: 5px solid white;
+                }
+            .mau2-pic3{
+                width: 25%;
+                height: 100%;
+                background-size: 100% 100%;
+                border: 5px solid white;
+                }
+            .mau2-video{
+                width: 20%;
+                height: 100%;
+                border: 5px solid white;
+            }
+            .information-mobi{
+                display: none;
+            }
+            #a1{
+                display: none;
+            }
+            @media screen and (max-width: 1000px) {
+                .part3{
+                    display: block;
+                    height: 3000px;
+            }
+                .mau1{
+                    width: 100%;
+                }
+                .mau2{
+                    width: 100%;
+                }
+                .logo{
+                    height: 100%;
+                    width: 100%;
+                }
+                .title-faifoo{
+                    text-align: center;
+                }
+                .faifoo-info{
+                    display: none;
+                }
+                .information-mobi{
+                    display: block;
+                }
+                .part1{
+                    display: grid;
+                    grid-template-columns: 50% 50%;
+                    grid-template-rows: 50% 50%;
+                }
+                .information-mobi{
+                    grid-column: 1 / 3;
+                }
+                .slogan{
+                    display: none;
+                }
+                .infomation{
+                    height: 100%;
+                    width: 100%;
+                    text-align: center;
+                }
+                .title-faifoo{
+                    text-align: center;
+                    font-size: 65px;
+                }
+                .faifoo-info-mb{
+                    font-size: 25px;
+                }
+                .slogan-mobi{
+                    font-style: italic;
+                    font-size: 30px;
+                    font-weight: 600;
+                    text-align: center;
+                    color: aliceblue;
+                }
+                .par2-title-cap1{
+                    font-size: 55px;
+                    text-shadow: 4px 3px 3px whitesmoke;
+                }
+                .par2-title-cap2{
+                    font-size: 35px;
+                }
+            }
+            @media screen and (max-width: 450px) {
+                .part1{
+                    height: 250px;
+                }
+                .title-faifoo{
+                    font-size: 50px;
+                }
+                .faifoo-info-mb{
+                    font-size: 19px;
+                }
+                .slogan-mobi{
+                    font-size: 26px;
+                }
+                .zalo{
+                    color: white;
+                }
+                .part2{
+                    height: 380 px;
+                }
+                .par2-title-cap1{
+                    font-size: 42px;
+                }
+                .par2-title-cap2{
+                    font-size: 30px;
+                }
+                .small-logo{
+                    height: 20px;
+                    width: 20px;
+                }
+                .shopee{
+                    font-size: 28px;
+                }
+                .bold{
+                    color: white;
+                }
+                .part3{
+                    height: 6000px;
+                }
+            } 
+            @media screen and (max-width: 339px){
+                .faifoo-info-mb{
+                    font-size: 18px;
+                }
+                .bold.zalo{
+                    font-size: 18px;
+                }
+                .slogan-mobi{
+                    font-size: 20px;
+                }
+            }
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <div class="part1">
+                <div class="logo"></div>
+                <div class="infomation">
+                    <div class="title-faifoo">FaiFoo Billiard</div>
+                    <div class="faifoo-info">
+                        <div class="bold"><u style="color:black;">Địa Chỉ:</u>    số 1, Bờ Hồ 1 x Trảng Kèo 1, Thành phố Hội An, Quảng Nam</div>
+                        <div class="bold" style="color: white;"><u>Zalo:</u> <u style="color:aliceblue;">0349.740.774</u></div>
+                        <div class="zalo">
+                            <div class="bold" style="margin-right: 10px;"><u style="color:black;">Facebook Link: </u>  </div>
+                            <a href="https://www.facebook.com/quangvu.nguyen.73307/">Nguyễn Lê Quang Vũ</a>
+                        </div>
+                    </div>
+                    <div class="slogan">Mạnh Mẽ - Bền Bỉ - Uy Tín</div>
+                </div>
+                <div class="information-mobi">
+                    <div class="faifoo-info-mb">
+                        <div class="bold"><u style="color:black;">Địa Chỉ:</u>    số 1, Bờ Hồ 1 x Trảng Kèo 1, Thành phố Hội An, Quảng Nam</div>
+                        <div class="bold"><u style="color:black;">Zalo:</u> 0349.740.774</div>
+                        <div class="zalo">
+                            <div class="bold" style="margin-right: 10px;"><u style="color:black;">Facebook Link: </u>  </div>
+                            <a href="https://www.facebook.com/quangvu.nguyen.73307/">Nguyễn Lê Quang Vũ</a>
+                        </div>
+                    </div>
+                    <div class="slogan-mobi">Mạnh Mẽ - Bền Bỉ - Uy Tín</div>
+                </div>
+            </div>
+            <div class="part2">
+                <div class="part2-title">
+                    <div class="par2-title-cap">
+                        <div class="small-logo"></div>
+                        <div class="par2-title-cap1">FAIFOO BILLIARD</div>
+                        <div class="par2-title-cap2">CHUYÊN CUNG CẤP CÁC MẪU CƠ BI-A BÌNH GIÁ VÀ CHẤT LƯỢNG</div>
+                        <div class="shopee" style="color:rgb(254,97,50);margin-top: 12;">Shopee Link</div>
+                    </div>
+                </div>
+            </div>
+            <div class="part3">
+                <div class="mau1">
+                    <div class="mau1-title">MẪU GRAMAX</div>
+                    <div class="mau1-info">
+                        <div class="mau1-img">
+                            <iframe width="100%" height="100%" id="gramax" src="https://www.youtube.com/embed/awtrTpVK5z4" title="Gramax" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                            <img src="gramax2.jpg" id="main1" style="width:100%; height: 100%;">
+                        </div>
+                        <div class="mau1-vipi">
+                            <div  class="mau1-video" width="100%"  style="font-weight: bold;">Video
+                            <img src="gramax3.jpg" id="gramax1" style="width:100%; height: 80%;">
+                            </div>
+                            <div class="mau1-pic">
+                                <img src="gramax1.jpg" width="100%" height="100%" id="gramax2">
+                            </div>
+                            <div class="mau1-pic">
+                                <img src="gramax3.jpg" style="width:100%; height: 100%;" id="gramax3" >
+                            </div>
+                            <div class="mau1-pic">
+                                <img src="gramax4.jpg" style="width:100%; height: 100%;" id="gramax4" >
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="mau1-mota">
+                    <div style="font-weight: 800; font-size: 24px; margin: 10px 5px 0px 5px;">Mẫu GRAMAX</div>
+                    <pre>
+    kích thước:
+    răng:
+    trọng lượng:
+    mô tả:
+                    </pre>
+                </div>
+                <div class="mau2">
+                    <div class="mau2-title">MẪU JEDIHAY</div>
+                    <div class="mau2-info">
+                        <div class="mau1-img">
+                            <iframe width="100%" height="100%" id ="jedihay" src="https://www.youtube.com/embed/ZBgBVZUHG30" title="Cuemall" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                            <img src="cuemall2.jpg" id="main2" style="width:100%; height: 100%;">
+                        </div>
+                        <div class="mau2-vipi">
+                            <div class="mau1-vipi">
+                                <div class="mau1-video" style="font-weight: bold;" >
+                                    Video
+                                    <img src="jedihay6.jpg" width="100%" height="80%" id="jedihay1">
+                                </div>
+                            <div  class="mau2-pic1" >
+                            <img src="jedihay2.jpg" style="width:100%; height: 100%;" id="jedihay2">
+                            </div>
+                            <div  class="mau2-pic2">
+                                <img src="jedihay3.jpg" style="width:100%; height: 100%;" id="jedihay3">
+                            </div>
+                            <div class="mau2-pic3">
+                                <img src="jedihay4.jpg" style="width:100%; height: 100%;" id="jedihay4" >
+                            </div>
+                                     <div class="mau2-pic3">
+                                <img src="jedihay5.jpg" style="width:100%; height: 100%;" id="jedihay5" >
+                            </div>
+                                     <div class="mau2-pic3">
+                                <img src="jedihay6.jpg" style="width:100%; height: 100%;" id="jedihay6" >
+                            </div>
+                                     <div class="mau2-pic3">
+                                <img src="jedihay7.jpg" style="width:100%; height: 100%;" id="jedihay7" >
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="mau1-mota">
+                    <div style="font-weight: 800; font-size: 24px; margin: 10px 5px 0px 5px;">Mẫu JEDIHAY</div>
+                    <pre>
+    kích thước:
+    răng:
+    trọng lượng:
+    mô tả:
+                    </pre>
+                    <div class="mau1">
+                        <div class="mau1-title">MẪU CUEMALL</div>
+                        <div class="mau1-info">
+                            <div class="mau1-img">
+                                <iframe width="100%" height="100%" id="cuemall" src="https://www.youtube.com/embed/ZBgBVZUHG30" title="Cuemall" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                                <img src="cuemall.jpg" id="main3" style="width:100%; height: 100%;">
+                            </div>
+                            <div class="mau1-vipi">
+                                <div class="mau1-video" style="font-weight: bold;" >
+                                    Video
+                                    <img src="cuemall3.jpg" width="100%" height="80%" id="cuemall1">
+                                </div>
+                                <div class="mau1-pic">
+                                    <img src="cuemall.jpg" width="100%" height="100%" id="cuemall2">
+                                </div>
+                                <div class="mau1-pic">
+                                    <img src="cuemall1.jpg" style="width:100%; height: 100%;" id="cuemall3" >
+                                </div>
+                                <div class="mau1-pic">
+                                    <img src="cuemall3.jpg" style="width:100%; height: 100%;" id="cuemall4" >
+                                </div>
+                                <div class="mau1-pic">
+                                    <img src="cuemall4.jpg" style="width:100%; height: 100%;" id="cuemall5" >
+                                </div>
+                                <div class="mau1-pic">
+                                    <img src="cuemall5.jpg" style="width:100%; height: 100%;" id="cuemall6" >
+                                </div>
+                                <div class="mau1-pic">
+                                    <img src="cuemall6.jpg" style="width:100%; height: 100%;" id="cuemall7" >
+                                </div>
+                                <div class="mau1-pic">
+                                    <img src="cuemall2.jpg" style="width:100%; height: 100%;" id="cuemall8" >
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="mau1-mota">
+                        <div style="font-weight: 800; font-size: 24px; margin: 10px 5px 0px 5px;">Mẫu AAA</div>
+                        <p>
+        kích thước đầu cơ: 13mm
+        chất liệu: Gỗ Maple (phong)
+        trọng lượng: 540gram-550gram
+        mô tả: tặng bao tay ống, chụp bảo vệ gen, găng tay, lơ
+                        </p>
+                        <div class="mau1">
+                            <div class="mau1-title">MẪU LONGONI</div>
+                            <div class="mau1-info">
+                                <div class="mau1-img">
+                                    <iframe width="100%" height="100%" id="longonia" src="https://www.youtube.com/embed/5xWqffmd4Tg" title="Logoni1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                                    <iframe width="100%" height="100%" id="longonib" src="https://www.youtube.com/embed/25wguQRvPYo" title="Longoni2" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                                    <img src="longoni1.jpg" id="main4" style="width:100%; height: 100%;">
+                                </div>
+                                <div class="mau1-vipi">
+                                    <div class="mau1-video" style="font-weight: bold;" >
+                                        Video
+                                        <img src="longoni2.jpg" width="100%" height="80%" id="longoni1">
+                                    </div>
+                                    <div class="mau1-video" style="font-weight: bold;">
+                                        Video
+                                        <img src="longoni4.jpg" width="100%" height="80%" id="longoni2">
+                                    </div>
+                                    <div class="mau1-pic">
+                                        <img src="longoni2.jpg" width="100%" height="100%" id="longoni3">
+                                    </div>
+                                    <div class="mau1-pic">
+                                        <img src="longoni1.jpg" style="width:100%; height: 100%;" id="longoni4" >
+                                    </div>
+                                    <div class="mau1-pic">
+                                        <img src="longoni3.jpg" style="width:100%; height: 100%;" id="longoni5" >
+                                    </div>
+                                    <div class="mau1-pic">
+                                        <img src="longoni4.jpg" style="width:100%; height: 100%;" id="longoni6" >
+                                    </div>
+                                    <div class="mau1-pic">
+                                        <img src="longoni5.jpg" style="width:100%; height: 100%;" id="longoni7" >
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="mau1-mota">
+                            <div style="font-weight: 800; font-size: 24px; margin: 10px 5px 0px 5px;">Mẫu AAA</div>
+                            <pre>
+            kích thước:
+            răng:
+            trọng lượng:
+            mô tả:
+                            </pre>
+                            <div class="mau1">
+                                <div class="mau1-title">MẪU POINOS</div>
+                                <div class="mau1-info">
+                                    <div class="mau1-img"> 
+                                        <iframe width="100%" height="100%" id="poinos"  class="mau1-pic" src="https://www.youtube.com/embed/b__7Mop80po" title="Poinos" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                                        <img src="poinos6.jpg" id="main5" style="width:100%; height: 100%;">
+                                    </div>
+                                    <div class="mau1-vipi">
+                                        <div class="mau1-pic" style="font-weight: bold;" >Video
+                                            <img src="poinos1.jpg" width="100%" height="80%" id="poinos1">
+                                        </div>
+                                        <div class="mau1-pic">
+                                            <img src="poinos2.jpg" style="width:100%; height: 100%;" id="poinos2" >
+                                        </div>
+                                        <div class="mau1-pic">
+                                            <img src="poinos3.jpg" style="width:100%; height: 100%;" id="poinos3" >
+                                        </div>
+                                        <div class="mau1-pic">
+                                            <img src="poinos4.jpg" style="width:100%; height: 100%;" id="poinos4" >
+                                        </div>
+                                        <div class="mau1-pic">
+                                            <img src="poinos5.jpg" style="width:100%; height: 100%;" id="poinos5" >
+                                        </div>
+                                        <div class="mau1-pic">
+                                            <img src="poinos6.jpg" style="width:100%; height: 100%;" id="poinos6" >
+                                        </div>
+                                        <div class="mau1-pic">
+                                            <img src="poinos7.jpg" style="width:100%; height: 100%;" id="poinos7" >
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="mau1-mota">
+                                <div style="font-weight: 800; font-size: 24px; margin: 10px 5px 0px 5px;">Mẫu AAA</div>
+                                <pre>
+                kích thước:
+                răng:
+                trọng lượng:
+                mô tả:
+                                </pre>
+                            <div class="mau1">
+                                    <div class="mau1-title">MẪU COPY CARBON</div>
+                                    <div class="mau1-info">
+                                        <div class="mau1-img">
+                                            <iframe width="100%" height="100%" id="carbon"  class="mau1-pic" src="https://www.youtube.com/embed/oETphSTjD8w" title="Copy Carbon" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                                            <img src="carbon3.jpg" id="main6" style="width:100%; height: 100%;">
+                                        </div>
+                                        <div class="mau1-vipi">
+                                            <div class="mau1-pic" style="font-weight: bold;" >Video
+                                                <img src="carbon2.jpg" width="100%" height="80%" id="carbon1">
+                                            </div>
+                                            <div class="mau1-pic">
+                                                <img src="carbon2.jpg" width="100%" height="100%" id="carbon2">
+                                            </div>
+                                            <div class="mau1-pic">
+                                                <img src="carbon1.jpg" style="width:100%; height: 100%;" id="carbon3" >
+                                            </div>
+                                            <div class="mau1-pic">
+                                                <img src="carbon3.jpg" style="width:100%; height: 100%;" id="carbon4" >
+                                            </div>
+                                            <div class="mau1-pic">
+                                                <img src="carbon4.jpg" style="width:100%; height: 100%;" id="carbon5" >
+                                            </div>
+                                        </div>
+                                    </div>
+                            </div>
+                            <br>
+                            <br>
+                                <div class="mau2-mota">
+                                    <div style="font-weight: 800; font-size: 24px; margin: 10px 5px 0px 5px;">Mẫu AAA</div>
+                <p>
+        kích thước đầu cơ: 12mm
+        chất liệu: gỗ Maple sơn công nghệ tay cầm quấn chỉ
+        trọng lượng: 520gram-530gram
+        mô tả: tặng bao da, lơ, găng tay
+                </p>
+            </div>
+            <div class="part4">
+                <img src="nen1.png" style="width:100%; height: 650px;"  >
+                <img src="nen2.png" style="width:100%; height: 650px;"  >
+            </div>
+        </div>
+        <script>
+            document.getElementById("gramax1").onclick = () =>{
+            document.getElementById("gramax").style.display = "block";
+            document.getElementById("main1").style.display = "none";
+            document.getElementById("gramax").style.width = "100%";
+            }
+            document.getElementById("gramax2").onclick = () =>{
+            document.getElementById("gramax").style.display = "none";
+            document.getElementById("main1").style.display = "block";
+            var gramaxa = document.getElementById("gramax2");
+            var gramaxb = document.getElementById("main1");
+            gramaxb.src= gramaxa.src;
+            }
+            document.getElementById("gramax3").onclick = () =>{
+            document.getElementById("gramax").style.display = "none";
+            document.getElementById("main1").style.display = "block";
+            var gramaxa1 = document.getElementById("gramax3");
+            var gramaxb1 = document.getElementById("main1");
+            gramaxb1.src= gramaxa1.src;
+            }
+            document.getElementById("gramax4").onclick = () =>{
+            document.getElementById("gramax").style.display = "none";
+            document.getElementById("main1").style.display = "block";
+            var gramaxa2 = document.getElementById("gramax4");
+            var gramaxb2 = document.getElementById("main1");
+            gramaxb2.src= gramaxa2.src;
+            }
+            // document.getElementById("imgtext14a").onclick = () =>{
+            // document.getElementById("a1").style.display = "block";
+            // document.getElementById("expandedImg14").style.display = "none";
+            // document.getElementById("a1").style.width = "100%";
+
+
+            // }
+            document.getElementById("jedihay1").onclick = () =>{
+            document.getElementById("jedihay").style.display = "block";
+            document.getElementById("main2").style.display = "none";
+            document.getElementById("jedihay").style.width = "100%";
+            }
+            document.getElementById("jedihay2").onclick = () =>{
+            document.getElementById("jedihay").style.display = "none";
+            document.getElementById("main2").style.display = "block";
+            var jedihay2 = document.getElementById("jedihay2");
+            var jedihaymain2 = document.getElementById("main2");
+            jedihaymain2.src= jedihay2.src;
+            }
+            document.getElementById("jedihay3").onclick = () =>{
+            document.getElementById("jedihay").style.display = "none";
+            document.getElementById("main2").style.display = "block";
+            var jedihay3 = document.getElementById("jedihay3");
+            var jedihaymain3 = document.getElementById("main2");
+            jedihaymain3.src= jedihay3.src;
+            }
+            document.getElementById("jedihay4").onclick = () =>{
+            document.getElementById("jedihay").style.display = "none";
+            document.getElementById("main2").style.display = "block";
+            var jedihay4 = document.getElementById("jedihay4");
+            var jedihaymain4 = document.getElementById("main2");
+            jedihaymain4.src= jedihay4.src;
+            }
+            document.getElementById("jedihay5").onclick = () =>{
+            document.getElementById("jedihay").style.display = "none";
+            document.getElementById("main2").style.display = "block";
+            var jedihay5 = document.getElementById("jedihay5");
+            var jedihaymain5 = document.getElementById("main2");
+            jedihaymain5.src= jedihay5.src;
+            }
+            document.getElementById("jedihay6").onclick = () =>{
+            document.getElementById("jedihay").style.display = "none";
+            document.getElementById("main2").style.display = "block";
+            var jedihay6 = document.getElementById("jedihay6");
+            var jedihaymain6 = document.getElementById("main2");
+            jedihaymain6.src= jedihay6.src;
+            }
+            document.getElementById("jedihay7").onclick = () =>{
+            document.getElementById("jedihay").style.display = "none";
+            document.getElementById("main2").style.display = "block";
+            var jedihay7 = document.getElementById("jedihay7");
+            var jedihaymain7 = document.getElementById("main2");
+            jedihaymain7.src= jedihay7.src;
+            }
+            // document.getElementById("imgtext1").onclick = () =>{
+            // var expandImg1 = document.getElementById("expandedImg2");
+            // var imgText1 = document.getElementById("imgtext1");
+            // expandImg1.src= imgText1.src;
+            // }
+            
+            // document.getElementById("imgtext2").onclick = () =>{
+            // var expandImg1 = document.getElementById("expandedImg2");
+            // var imgText1 = document.getElementById("imgtext2");
+            // expandImg1.src= imgText1.src;
+            // }
+            // document.getElementById("imgtext3").onclick = () =>{
+            // var expandImg1 = document.getElementById("expandedImg2");
+            // var imgText1 = document.getElementById("imgtext3");
+            // expandImg1.src= imgText1.src;
+            // }
+            document.getElementById("cuemall1").onclick = () =>{
+            document.getElementById("cuemall").style.display = "block";
+            document.getElementById("main3").style.display = "none";
+            document.getElementById("cuemall").style.width = "100%";
+            }
+            document.getElementById("cuemall2").onclick = () =>{
+            document.getElementById("cuemall").style.display = "none";
+            document.getElementById("main3").style.display = "block";
+            var cuemall2 = document.getElementById("cuemall2");
+            var cuemallmain = document.getElementById("main3");
+            cuemallmain.src= cuemall2.src;
+            }
+            document.getElementById("cuemall3").onclick = () =>{
+            document.getElementById("cuemall").style.display = "none";
+            document.getElementById("main3").style.display = "block";
+            var cuemall3 = document.getElementById("cuemall3");
+            var cuemallmain3 = document.getElementById("main3");
+            cuemallmain3.src= cuemall3.src;
+            }
+            document.getElementById("cuemall4").onclick = () =>{
+            document.getElementById("cuemall").style.display = "none";
+            document.getElementById("main3").style.display = "block";
+            var cuemall4 = document.getElementById("cuemall4");
+            var cuemallmain4 = document.getElementById("main3");
+            cuemallmain4.src= cuemall4.src;
+            }
+            document.getElementById("cuemall5").onclick = () =>{
+            document.getElementById("cuemall").style.display = "none";
+            document.getElementById("main3").style.display = "block";
+            var cuemall5 = document.getElementById("cuemall5");
+            var cuemallmain5 = document.getElementById("main3");
+            cuemallmain5.src= cuemall5.src;
+            }
+            document.getElementById("cuemall6").onclick = () =>{
+            document.getElementById("cuemall").style.display = "none";
+            document.getElementById("main3").style.display = "block";
+            var cuemall6 = document.getElementById("cuemall6");
+            var cuemallmain6 = document.getElementById("main3");
+            cuemallmain6.src= cuemall6.src;
+            }
+            document.getElementById("cuemall7").onclick = () =>{
+            document.getElementById("cuemall").style.display = "none";
+            document.getElementById("main3").style.display = "block";
+            var cuemall7 = document.getElementById("cuemall7");
+            var cuemallmain7 = document.getElementById("main3");
+            cuemallmain7.src= cuemall7.src;
+            }
+            document.getElementById("cuemall8").onclick = () =>{
+            document.getElementById("cuemall").style.display = "none";
+            document.getElementById("main3").style.display = "block";
+            var cuemall8 = document.getElementById("cuemall8");
+            var cuemallmain8 = document.getElementById("main3");
+            cuemallmain8.src= cuemall8.src;
+            }
+            // document.getElementById("imgtext").onclick = () =>{
+
+            // var expandImg = document.getElementById("expandedImg");
+            // var imgText = document.getElementById("imgtext");
+            // expandImg.src = imgText.src;
+            // }
+            // document.getElementById("imgtext0").onclick = () =>{
+
+            // var expandImg = document.getElementById("expandedImg");
+            // var imgText = document.getElementById("imgtext0");
+            // expandImg.src = imgText.src;
+            // }
+            // document.getElementById("imgtexta").onclick = () =>{
+
+            // var expandImg = document.getElementById("expandedImg");
+            // var imgText = document.getElementById("imgtexta");
+            // expandImg.src = imgText.src;
+            // }
+            document.getElementById("longoni1").onclick = () =>{
+            document.getElementById("longonia").style.display = "block";
+            document.getElementById("longonib").style.display = "none";
+            document.getElementById("main4").style.display = "none";
+            document.getElementById("longonia").style.width = "100%";
+            }
+            document.getElementById("longoni2").onclick = () =>{
+            document.getElementById("longonib").style.display = "block";
+            document.getElementById("longonia").style.display = "none";
+            document.getElementById("main4").style.display = "none";
+            document.getElementById("longonia").style.width = "100%";
+            }
+            document.getElementById("longoni3").onclick = () =>{
+            document.getElementById("longonia").style.display = "none";
+            document.getElementById("longonib").style.display = "none";
+            document.getElementById("main4").style.display = "block";
+            var longoni3 = document.getElementById("longoni3");
+            var longonimain3 = document.getElementById("main4");
+            longonimain3.src= longoni3.src;
+            }
+            document.getElementById("longoni4").onclick = () =>{
+            document.getElementById("longonia").style.display = "none";
+            document.getElementById("longonib").style.display = "none";
+            document.getElementById("main4").style.display = "block";
+            var longoni4 = document.getElementById("longoni4");
+            var longonimain4 = document.getElementById("main4");
+            longonimain4.src= longoni4.src;
+            }
+            document.getElementById("longoni5").onclick = () =>{
+            document.getElementById("longonia").style.display = "none";
+            document.getElementById("longonib").style.display = "none";
+            document.getElementById("main4").style.display = "block";
+            var longoni5 = document.getElementById("longoni5");
+            var longonimain5 = document.getElementById("main4");
+            longonimain5.src= longoni5.src;
+            }
+            document.getElementById("longoni6").onclick = () =>{
+            document.getElementById("longonia").style.display = "none";
+            document.getElementById("longonib").style.display = "none";
+            document.getElementById("main4").style.display = "block";
+            var longoni6 = document.getElementById("longoni6");
+            var longonimain6 = document.getElementById("main4");
+            longonimain6.src= longoni6.src;
+            }
+            document.getElementById("longoni7").onclick = () =>{
+            document.getElementById("longonia").style.display = "none";
+            document.getElementById("longonib").style.display = "none";
+            document.getElementById("main4").style.display = "block";
+            var longoni7 = document.getElementById("longoni7");
+            var longonimain7 = document.getElementById("main4");
+            longonimain7.src= longoni7.src;
+            }
+            // document.getElementById("imgtextb").onclick = () =>{
+
+            // var expandImg = document.getElementById("expandedImg");
+            // var imgText = document.getElementById("imgtextb");
+            // expandImg.src = imgText.src;
+            // }
+            // document.getElementById("imgtextc").onclick = () =>{
+
+            // var expandImg = document.getElementById("expandedImg");
+            // var imgText = document.getElementById("imgtextc");
+            // expandImg.src = imgText.src;
+            // }
+            document.getElementById("poinos1").onclick = () =>{
+            document.getElementById("poinos").style.display = "block";
+            document.getElementById("main5").style.display = "none";
+            document.getElementById("poinos").style.width = "100%";
+            }
+            document.getElementById("poinos2").onclick = () =>{
+            document.getElementById("poinos").style.display = "none";
+            document.getElementById("main5").style.display = "block";
+            var poinos2 = document.getElementById("poinos2");
+            var poinosmain2 = document.getElementById("main5");
+            poinosmain2.src= poinos2.src;
+            }
+            document.getElementById("poinos3").onclick = () =>{
+            document.getElementById("poinos").style.display = "none";
+            document.getElementById("main5").style.display = "block";
+            var poinos3 = document.getElementById("poinos3");
+            var poinosmain3 = document.getElementById("main5");
+            poinosmain3.src= poinos3.src;
+            }
+            document.getElementById("poinos4").onclick = () =>{
+            document.getElementById("poinos").style.display = "none";
+            document.getElementById("main5").style.display = "block";
+            var poinos4 = document.getElementById("poinos4");
+            var poinosmain4 = document.getElementById("main5");
+            poinosmain4.src= poinos2.src;
+            }
+            document.getElementById("poinos5").onclick = () =>{
+            document.getElementById("poinos").style.display = "none";
+            document.getElementById("main5").style.display = "block";
+            var poinos5 = document.getElementById("poinos5");
+            var poinosmain5 = document.getElementById("main5");
+            poinosmain5.src= poinos5.src;
+            }
+            document.getElementById("poinos6").onclick = () =>{
+            document.getElementById("poinos").style.display = "none";
+            document.getElementById("main5").style.display = "block";
+            var poinos6 = document.getElementById("poinos6");
+            var poinosmain6 = document.getElementById("main5");
+            poinosmain6.src= poinos6.src;
+            }
+            document.getElementById("poinos7").onclick = () =>{
+            document.getElementById("poinos").style.display = "none";
+            document.getElementById("main5").style.display = "block";
+            var poinos7 = document.getElementById("poinos7");
+            var poinosmain7 = document.getElementById("main5");
+            poinosmain7.src= poinos7.src;
+            }
+            // document.getElementById("imgtext4").onclick = () =>{
+ 
+            // var expandImg = document.getElementById("expandedImg");
+            // var imgText = document.getElementById("imgtext4");
+            // expandImg.src = imgText.src;
+            // }
+
+            // document.getElementById("imgtext5").onclick = () =>{
+
+            // var expandImg5 = document.getElementById("expandedImg5");
+            // var imgText5 = document.getElementById("imgtext5");
+            // expandImg5.src = imgText5.src;
+            // }
+            document.getElementById("carbon1").onclick = () =>{
+            document.getElementById("carbon").style.display = "block";
+            document.getElementById("main6").style.display = "none";
+            document.getElementById("carbon").style.width = "100%";
+            }
+            document.getElementById("carbon2").onclick = () =>{
+            document.getElementById("carbon").style.display = "none";
+            document.getElementById("main6").style.display = "block";
+            var carbon2 = document.getElementById("carbon2");
+            var carbonmain2 = document.getElementById("main6");
+            carbonmain2.src= carbon2.src;
+            }
+            document.getElementById("carbon3").onclick = () =>{
+            document.getElementById("carbon").style.display = "none";
+            document.getElementById("main6").style.display = "block";
+            var carbon3 = document.getElementById("carbon3");
+            var carbonmain3 = document.getElementById("main6");
+            carbonmain3.src= carbon3.src;
+            }
+            document.getElementById("carbon4").onclick = () =>{
+            document.getElementById("carbon").style.display = "none";
+            document.getElementById("main6").style.display = "block";
+            var carbon4 = document.getElementById("carbon4");
+            var carbonmain4 = document.getElementById("main6");
+            carbonmain4.src= carbon4.src;
+            }
+            document.getElementById("carbon5").onclick = () =>{
+            document.getElementById("carbon").style.display = "none";
+            document.getElementById("main6").style.display = "block";
+            var carbon5 = document.getElementById("carbon5");
+            var carbonmain5 = document.getElementById("main6");
+            carbonmain5.src= carbon5.src;
+            }
+            // document.getElementById("imgtext6").onclick = () =>{
+
+            // var expandImg5 = document.getElementById("expandedImg5");
+            // var imgText5 = document.getElementById("imgtext6");
+            // expandImg5.src = imgText5.src;
+            // }
+            // document.getElementById("imgtext7").onclick = () =>{
+
+            // var expandImg5 = document.getElementById("expandedImg5");
+            // var imgText5 = document.getElementById("imgtext7");
+            // expandImg5.src = imgText5.src;
+            // }
+            // document.getElementById("imgtext7a").onclick = () =>{
+ 
+            // var expandImg5 = document.getElementById("expandedImg5");
+            // var imgText5 = document.getElementById("imgtext7a");
+            // expandImg5.src = imgText5.src;
+            // }
+            // document.getElementById("imgtext7b").onclick = () =>{
+            // var expandImg5 = document.getElementById("expandedImg5");
+            // var imgText5 = document.getElementById("imgtext7b");
+            // expandImg5.src = imgText5.src;
+            // }
+            // document.getElementById("imgtext7c").onclick = () =>{
+            // var expandImg5 = document.getElementById("expandedImg5");
+            // var imgText5 = document.getElementById("imgtext7c");
+            // expandImg5.src = imgText5.src;
+            // }
+            // document.getElementById("imgtext7d").onclick = () =>{
+            // var expandImg5 = document.getElementById("expandedImg5");
+            // var imgText5 = document.getElementById("imgtext7d");
+            // expandImg5.src = imgText5.src;
+            // }
+            // document.getElementById("imgtext8a").onclick = () =>{
+            // document.getElementById("a4").style.display = "none";
+            // document.getElementById("a3").style.display = "block";
+            // document.getElementById("expandedImg8").style.display = "none";
+            // document.getElementById("a3").style.width = "100%";
+            // }
+            // document.getElementById("imgtext8b").onclick = () =>{
+            // document.getElementById("a3").style.display = "none";
+            // document.getElementById("a4").style.display = "block";
+            // document.getElementById("expandedImg8").style.display = "none";
+            // document.getElementById("a4").style.width = "100%";
+            // }
+            // document.getElementById("imgtext8").onclick = () =>{
+            // document.getElementById("a3").style.display = "none";
+            // document.getElementById("a4").style.display = "none";
+            // document.getElementById("expandedImg8").style.display = "block";
+            // var expandImg5 = document.getElementById("expandedImg8");
+            // var imgText5 = document.getElementById("imgtext8");
+            // expandImg5.src = imgText5.src;
+            // }
+            // document.getElementById("imgtext9").onclick = () =>{
+            // document.getElementById("a3").style.display = "none";
+            // document.getElementById("a4").style.display = "none";
+            // document.getElementById("expandedImg8").style.display = "block";
+            // var expandImg5 = document.getElementById("expandedImg8");
+            // var imgText5 = document.getElementById("imgtext9");
+            // expandImg5.src = imgText5.src;
+            // }
+            // document.getElementById("imgtext10").onclick = () =>{
+            // document.getElementById("a3").style.display = "none";
+            // document.getElementById("a4").style.display = "none";
+            // document.getElementById("expandedImg8").style.display = "block";
+            // var expandImg5 = document.getElementById("expandedImg8");
+            // var imgText5 = document.getElementById("imgtext10");
+            // expandImg5.src = imgText5.src;
+            // }     
+            // document.getElementById("imgtext10a").onclick = () =>{
+            // document.getElementById("a3").style.display = "none";
+            // document.getElementById("a4").style.display = "none";
+            // document.getElementById("expandedImg8").style.display = "block";
+            // var expandImg5 = document.getElementById("expandedImg8");
+            // var imgText5 = document.getElementById("imgtext10a");
+            // expandImg5.src = imgText5.src;
+            // }     
+            // document.getElementById("imgtext10b").onclick = () =>{
+            // document.getElementById("a3").style.display = "none";
+            // document.getElementById("a4").style.display = "none";
+            // document.getElementById("expandedImg8").style.display = "block";
+            // var expandImg5 = document.getElementById("expandedImg8");
+            // var imgText5 = document.getElementById("imgtext10b");
+            // expandImg5.src = imgText5.src;
+            // }     
+            // document.getElementById("imgtext11").onclick = () =>{
+            // document.getElementById("a2").style.display = "block";
+            // document.getElementById("expandedImg11").style.display = "none";
+            // document.getElementById("a2").style.width = "100%";
+            // }     
+            // document.getElementById("imgtext12").onclick = () =>{
+            // document.getElementById("a2").style.display = "none";
+            // document.getElementById("expandedImg11").style.display = "block";
+            // var expandImg5 = document.getElementById("expandedImg11");
+            // var imgText5 = document.getElementById("imgtext12");
+            // expandImg5.src = imgText5.src;
+            // }   
+            // document.getElementById("imgtext13").onclick = () =>{
+            // document.getElementById("a2").style.display = "none";
+            // document.getElementById("expandedImg11").style.display = "block";
+            // var expandImg5 = document.getElementById("expandedImg11");
+            // var imgText5 = document.getElementById("imgtext13");
+            // expandImg5.src = imgText5.src;
+            // }   
+            // document.getElementById("imgtext13a").onclick = () =>{
+            // document.getElementById("a2").style.display = "none";
+            // document.getElementById("expandedImg11").style.display = "block";
+            // var expandImg5 = document.getElementById("expandedImg11");
+            // var imgText5 = document.getElementById("imgtext13a");
+            // expandImg5.src = imgText5.src;
+            // }   
+            // document.getElementById("imgtext13b").onclick = () =>{
+            // document.getElementById("a2").style.display = "none";
+            // document.getElementById("expandedImg11").style.display = "block";
+            // var expandImg5 = document.getElementById("expandedImg11");
+            // var imgText5 = document.getElementById("imgtext13b");
+            // expandImg5.src = imgText5.src;
+            // }   
+            // document.getElementById("imgtext13c").onclick = () =>{
+            // document.getElementById("a2").style.display = "none";
+            // document.getElementById("expandedImg11").style.display = "block";
+            // var expandImg5 = document.getElementById("expandedImg11");
+            // var imgText5 = document.getElementById("imgtext13c");
+            // expandImg5.src = imgText5.src;
+            // }   
+            // document.getElementById("imgtext13d").onclick = () =>{
+            // document.getElementById("a2").style.display = "none";
+            // document.getElementById("expandedImg11").style.display = "block";
+            // var expandImg5 = document.getElementById("expandedImg11");
+            // var imgText5 = document.getElementById("imgtext13d");
+            // expandImg5.src = imgText5.src;
+            // }   
+            // document.getElementById("imgtext14").onclick = () =>{
+            // document.getElementById("a1").style.display = "none";
+            // document.getElementById("expandedImg14").style.display = "block";
+            // var expandImg5 = document.getElementById("expandedImg14");
+            // var imgText5 = document.getElementById("imgtext14");
+            // expandImg5.src = imgText5.src;
+            // }   
+            // document.getElementById("imgtext15").onclick = () =>{
+            // document.getElementById("a1").style.display = "none";
+            // document.getElementById("expandedImg14").style.display = "block";
+            // var expandImg5 = document.getElementById("expandedImg14");
+            // var imgText5 = document.getElementById("imgtext15");
+            // expandImg5.src = imgText5.src;
+            // }  
+            // document.getElementById("imgtext16").onclick = () =>{
+            // document.getElementById("a1").style.display = "none";
+            // document.getElementById("expandedImg14").style.display = "block";
+            // var expandImg5 = document.getElementById("expandedImg14");
+            // var imgText5 = document.getElementById("imgtext16");
+            // expandImg5.src = imgText5.src;
+            // }  
+            // document.getElementById("imgtext16a").onclick = () =>{
+            // document.getElementById("a1").style.display = "none";
+            // document.getElementById("expandedImg14").style.display = "block";
+            // var expandImg5 = document.getElementById("expandedImg14");
+            // var imgText5 = document.getElementById("imgtext16a");
+            // expandImg5.src = imgText5.src;
+            // }  
+        </script>
+    </body>
+</html> 
